@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name = "suitClass">
+    <test name="runAll">
+        <classes>
+            <class name = "com.course.testng.groups.GroupsOnClass1"/>
+            <class name = "com.course.testng.groups.GroupsOnClass2"/>
+            <class name = "com.course.testng.groups.GroupsOnClass3"/>
+        </classes>
+    </test>
+
+    <test name="onlyRunStu">
+        <groups>
+            <run>
+                <!-- include的name是类上面的groups的值 -->
+                <include name = "stu"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name = "com.course.testng.groups.GroupsOnClass1"/>
+            <class name = "com.course.testng.groups.GroupsOnClass2"/>
+            <class name = "com.course.testng.groups.GroupsOnClass3"/>
+        </classes>
+    </test>
+
+</suite>
