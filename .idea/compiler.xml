@@ -21,6 +21,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Chapter" target="1.5" />
+      <module name="MoCo" target="1.5" />
       <module name="Report" target="1.6" />
     </bytecodeTargetLevel>
   </component>
