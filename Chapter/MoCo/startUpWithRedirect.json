@@ -1,0 +1,25 @@
+[
+  {
+    "description":"重定向到baidu",
+    "request":{
+      "uri":"/redirect"
+    },
+    "redirectTo":"http://www.baidu.com"
+  },
+  {
+    "description":"跳转到自己的重定向",
+    "request":{
+      "uri":"/myRedirect"
+    },
+    "redirectTo":"/newRedirect"
+  },
+  {
+    "description":"It is My Web",
+    "request":{
+      "uri":"/newRedirect"
+    },
+    "response":{
+     "text":"it is my web"
+    }
+  }
+]

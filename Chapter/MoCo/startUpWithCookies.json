@@ -1,0 +1,36 @@
+[
+  {
+    "description":"这是一个需要带cookies的get请求",
+    "request":{
+      "uri":"/cookiesGet",
+      "method":"get",
+      "cookies":{
+        "login":"true"
+      }
+    },
+    "response":{
+      "text":"这是一个带cookies的返data"
+    }
+  },
+  {
+    "description":"这是一个需要带cookies的post请求",
+    "request":{
+      "uri":"/cookiesPost",
+      "method":"post",
+      "cookies":{
+        "login":"true"
+      },
+      "json":{
+        "name":"huhansan",
+        "age":"20"
+      }
+    },
+    "response":{
+      "status":200,
+      "json":{
+        "name":"i am huhansan",
+        "age":"20"
+      }
+    }
+  }
+]

@@ -1,1 +1,9 @@
-java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c startup1.json
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c startUp1.json
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c startUpGet.json
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c startUpPost.json
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c startUpWithCookies.json
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c startUpWithHeader.json
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c startUpWithRedirect.json
+
+//带参数的浏览器访问地址
+http://localhost:8888/getwithparam?name=huhansan&age=18

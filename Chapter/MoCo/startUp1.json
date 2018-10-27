@@ -1,6 +1,6 @@
 [
   {
-    "description":"这是我们的第一个moco例子"
+    "description":"这是我们的第一个moco例子",
     "request":{
       "uri":"/demo"
     },
