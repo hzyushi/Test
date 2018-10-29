@@ -2,21 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58df1515-e3b1-4fd8-8604-f5c207b0600f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter/MoCo/startUpGet.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter/MoCo/startUpPost.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter/MoCo/startUpWithCookies.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter/MoCo/startUpWithHeader.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter/MoCo/startUpWithRedirect.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_1_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_1_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20170516.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter/HttpClient/HttpClient.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter/HttpClient/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter/HttpClient/src/main/java/com/course/httpclient/MyCookieForGet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter/HttpClient/src/main/java/com/course/httpclient/MyCookieForPost.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter/HttpClient/src/main/java/com/course/httpclient/MyHttpClient.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter/HttpClient/src/main/resources/application.properties" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Chapter/MoCo/startup1.json" afterPath="$PROJECT_DIR$/Chapter/MoCo/startUp1.json" />
-      <change beforePath="$PROJECT_DIR$/Chapter/MoCo/基本操作说明" afterPath="$PROJECT_DIR$/Chapter/MoCo/基本操作说明" />
+      <change beforePath="$PROJECT_DIR$/Chapter/MoCo/startUpWithCookies.json" afterPath="$PROJECT_DIR$/Chapter/MoCo/startUpWithCookies.json" />
+      <change beforePath="$PROJECT_DIR$/Chapter/pom.xml" afterPath="$PROJECT_DIR$/Chapter/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/Chapter/target/" />
     <ignored path="$PROJECT_DIR$/Report/target/" />
     <ignored path="$PROJECT_DIR$/Chapter/Report/target/" />
     <ignored path="$PROJECT_DIR$/MoCo/target/" />
+    <ignored path="$PROJECT_DIR$/Chapter/HttpClient/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,21 +41,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MoCo/pom.xml">
+      <file leaf-file-name="MyHttpClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter/HttpClient/src/main/java/com/course/httpclient/MyHttpClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="567">
+              <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="基本操作说明" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter/MoCo/基本操作说明">
+      <file leaf-file-name="startUpWithCookies.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter/MoCo/startUpWithCookies.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="81" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="243">
+              <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -54,79 +66,171 @@
       <file leaf-file-name="startUpWithHeader.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter/MoCo/startUpWithHeader.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            <state relative-caret-position="321">
+              <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="startUpWithRedirect.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter/MoCo/startUpWithRedirect.json">
+      <file leaf-file-name="MyCookieForPost.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter/HttpClient/src/main/java/com/course/httpclient/MyCookieForPost.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="24" />
+            <state relative-caret-position="1212">
+              <caret line="106" column="35" lean-forward="false" selection-start-line="106" selection-start-column="35" selection-end-line="106" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EntityUtils.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.1.2/httpcore-4.1.2.jar!/org/apache/http/util/EntityUtils.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="102" column="25" lean-forward="false" selection-start-line="102" selection-start-column="25" selection-end-line="102" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="startUp1.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter/MoCo/startUp1.json">
+      <file leaf-file-name="StringEntity.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.1.2/httpcore-4.1.2.jar!/org/apache/http/entity/StringEntity.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="162">
+              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="startUpGet.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter/MoCo/startUpGet.json">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter/HttpClient/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="29" />
+            <state relative-caret-position="536">
+              <caret line="24" column="29" lean-forward="false" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="startUpPost.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter/MoCo/startUpPost.json">
+      <file leaf-file-name="MyCookieForGet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter/HttpClient/src/main/java/com/course/httpclient/MyCookieForGet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+            <state relative-caret-position="-868">
+              <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="startUpWithCookies.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter/MoCo/startUpWithCookies.json">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter/HttpClient/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="25" />
+            <state relative-caret-position="162">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter/Report/src/main/main.iml">
+      <file leaf-file-name="AbstractHttpClient.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.1.2/httpclient-4.1.2.jar!/org/apache/http/impl/client/AbstractHttpClient.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Report.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter/Report/src/main/Report.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="240">
+              <caret line="489" column="30" lean-forward="false" selection-start-line="489" selection-start-column="30" selection-end-line="489" selection-end-column="30" />
+              <folding>
+                <marker date="1540626446729" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1540626446729" expanded="false" signature="151:2985" ph="..." />
+                <marker date="1540626446729" expanded="true" signature="4431:4510" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="4679:5198" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="5270:6432" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="6494:6846" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="6908:7417" ph="{...}" />
+                <marker date="1540626446729" expanded="false" signature="7476:7487" ph=" { " />
+                <marker date="1540626446729" expanded="false" signature="7520:7526" ph=" }" />
+                <marker date="1540626446729" expanded="false" signature="7597:7608" ph=" { " />
+                <marker date="1540626446729" expanded="false" signature="7652:7658" ph=" }" />
+                <marker date="1540626446729" expanded="true" signature="7738:7802" ph="{...}" />
+                <marker date="1540626446729" expanded="false" signature="7873:7884" ph=" { " />
+                <marker date="1540626446729" expanded="false" signature="7928:7934" ph=" }" />
+                <marker date="1540626446729" expanded="true" signature="7940:7958" ph="/**...*/" />
+                <marker date="1540626446729" expanded="false" signature="8028:8039" ph=" { " />
+                <marker date="1540626446729" expanded="false" signature="8075:8081" ph=" }" />
+                <marker date="1540626446729" expanded="true" signature="8155:8219" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="8292:8355" ph="{...}" />
+                <marker date="1540626446729" expanded="false" signature="8402:8413" ph=" { " />
+                <marker date="1540626446729" expanded="false" signature="8443:8449" ph=" }" />
+                <marker date="1540626446729" expanded="false" signature="8512:8523" ph=" { " />
+                <marker date="1540626446729" expanded="false" signature="8561:8567" ph=" }" />
+                <marker date="1540626446729" expanded="true" signature="8625:8725" ph="{...}" />
+                <marker date="1540626446729" expanded="false" signature="8782:8793" ph=" { " />
+                <marker date="1540626446729" expanded="false" signature="8830:8836" ph=" }" />
+                <marker date="1540626446729" expanded="true" signature="8891:9044" ph="{...}" />
+                <marker date="1540626446729" expanded="false" signature="9103:9114" ph=" { " />
+                <marker date="1540626446729" expanded="false" signature="9142:9148" ph=" }" />
+                <marker date="1540626446729" expanded="true" signature="9227:9387" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="9460:9612" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="9680:9862" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="9947:10010" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="10078:10260" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="10345:10408" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="10493:10659" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="10746:10797" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="10890:11072" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="11171:11230" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="11315:11478" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="11574:11623" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="11629:11647" ph="/**...*/" />
+                <marker date="1540626446729" expanded="false" signature="11730:11741" ph=" { " />
+                <marker date="1540626446729" expanded="false" signature="11777:11783" ph=" }" />
+                <marker date="1540626446729" expanded="true" signature="11789:11807" ph="/**...*/" />
+                <marker date="1540626446729" expanded="true" signature="11905:11997" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="12068:12236" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="12322:12379" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="12466:12648" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="12751:12810" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="12896:13074" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="13175:13232" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="13293:13441" ph="{...}" />
+                <marker date="1540626446729" expanded="false" signature="13511:13522" ph=" { " />
+                <marker date="1540626446729" expanded="false" signature="13553:13559" ph=" }" />
+                <marker date="1540626446729" expanded="true" signature="13636:13798" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="13887:13938" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="14005:14161" ph="{...}" />
+                <marker date="1540626446729" expanded="false" signature="14238:14249" ph=" { " />
+                <marker date="1540626446729" expanded="false" signature="14282:14288" ph=" }" />
+                <marker date="1540626446729" expanded="true" signature="14359:14527" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="14613:14670" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="14743:14908" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="14978:15826" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="15886:15963" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="16047:16124" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="16206:16282" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="16341:16417" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="16501:16601" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="16696:16803" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="16862:16969" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="17081:17200" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="17282:17382" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="17475:17582" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="17640:17746" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="17856:17974" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="18082:18146" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="18275:18530" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="18631:18997" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="19119:19191" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="19334:20561" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="20567:20585" ph="/**...*/" />
+                <marker date="1540626446729" expanded="true" signature="21053:21257" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="21712:21927" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="21987:22103" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="22244:22358" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="22520:22651" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="22806:22895" ph="{...}" />
+                <marker date="1540626446729" expanded="true" signature="23071:24290" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -194,11 +298,16 @@
         <option value="$PROJECT_DIR$/Chapter/MoCo/startup1.json" />
         <option value="$PROJECT_DIR$/Chapter/MoCo/startUpGet.json" />
         <option value="$PROJECT_DIR$/Chapter/MoCo/startupPost.json" />
-        <option value="$PROJECT_DIR$/Chapter/MoCo/startUpWithCookies.json" />
         <option value="$PROJECT_DIR$/Chapter/MoCo/startUpWithHeader" />
         <option value="$PROJECT_DIR$/Chapter/MoCo/startUpWithHeader.json" />
         <option value="$PROJECT_DIR$/Chapter/MoCo/基本操作说明" />
         <option value="$PROJECT_DIR$/Chapter/MoCo/startUpWithRedirect.json" />
+        <option value="$PROJECT_DIR$/Chapter/HttpClient/src/main/java/com/course/httpclient/MyHttpClient.java" />
+        <option value="$PROJECT_DIR$/Chapter/MoCo/startUpWithCookies.json" />
+        <option value="$PROJECT_DIR$/Chapter/HttpClient/src/main/java/com/course/httpclient/MyCookieForGet.java" />
+        <option value="$PROJECT_DIR$/Chapter/HttpClient/pom.xml" />
+        <option value="$PROJECT_DIR$/Chapter/HttpClient/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/Chapter/HttpClient/src/main/java/com/course/httpclient/MyCookieForPost.java" />
       </list>
     </option>
   </component>
@@ -215,9 +324,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-1721" />
-    <option name="y" value="200" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1736" />
+    <option name="y" value="16" />
     <option name="width" value="1380" />
     <option name="height" value="735" />
   </component>
@@ -228,10 +337,13 @@
           <State>
             <id />
           </State>
+          <State>
+            <id>General</id>
+          </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>Android</id>
+            <id>Duplicates</id>
           </State>
         </selected-state>
       </profile-state>
@@ -265,6 +377,49 @@
             <path>
               <item name="Test" type="b2602c69:ProjectViewProjectNode" />
               <item name="Chapter" type="462c0819:PsiDirectoryNode" />
+              <item name="HttpClient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chapter" type="462c0819:PsiDirectoryNode" />
+              <item name="HttpClient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chapter" type="462c0819:PsiDirectoryNode" />
+              <item name="HttpClient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chapter" type="462c0819:PsiDirectoryNode" />
+              <item name="HttpClient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chapter" type="462c0819:PsiDirectoryNode" />
+              <item name="HttpClient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="httpclient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chapter" type="462c0819:PsiDirectoryNode" />
+              <item name="HttpClient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chapter" type="462c0819:PsiDirectoryNode" />
               <item name="MoCo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -289,6 +444,7 @@
       <recent name="E:\WorkSpace\JavaScripts\Test\Chapter" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.course.httpclient" />
       <recent name="com.tester.extend" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -307,74 +463,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.E:/WorkSpace/JavaScripts/Test/Chapter/Report/src/main/resources/testng.xml">
-    <configuration name="E:/WorkSpace/JavaScripts/Test/Chapter/Report/src/main/resources/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter/Report/src/main/resources/testng.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" value="" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="E:/WorkSpace/JavaScripts/Test/Report/src/main/resources/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Report" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Report/src/main/resources/testng.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="true" />
-      <option name="PROPERTIES_FILE" value="" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="TestMethodsDemo" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.MyCookieForPost.testPostMethod">
+    <configuration name="MyCookieForGet" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.tester.extend.*" />
+          <option name="PATTERN" value="com.course.httpclient.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="Report" />
+      <module name="HttpClient" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.tester.extend" />
-      <option name="MAIN_CLASS_NAME" value="com.tester.extend.TestMethodsDemo" />
+      <option name="PACKAGE_NAME" value="com.course.httpclient" />
+      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.MyCookieForGet" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -394,20 +496,20 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="TestMethodsDemo.logDemo" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MyCookieForGet.testGetCookie" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.tester.extend.*" />
+          <option name="PATTERN" value="com.course.httpclient.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="Report" />
+      <module name="HttpClient" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.tester.extend" />
-      <option name="MAIN_CLASS_NAME" value="com.tester.extend.TestMethodsDemo" />
-      <option name="METHOD_NAME" value="logDemo" />
+      <option name="PACKAGE_NAME" value="com.course.httpclient" />
+      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.MyCookieForGet" />
+      <option name="METHOD_NAME" value="testGetCookie" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" />
@@ -426,20 +528,84 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="TestMethodsDemo.test3" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MyCookieForGet.testWithCookies" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.tester.extend.*" />
+          <option name="PATTERN" value="com.course.httpclient.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="Report" />
+      <module name="HttpClient" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.tester.extend" />
-      <option name="MAIN_CLASS_NAME" value="com.tester.extend.TestMethodsDemo" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="PACKAGE_NAME" value="com.course.httpclient" />
+      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.MyCookieForGet" />
+      <option name="METHOD_NAME" value="testWithCookies" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="MyCookieForPost.testPostMethod" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.course.httpclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="HttpClient" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.course.httpclient" />
+      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.MyCookieForPost" />
+      <option name="METHOD_NAME" value="testPostMethod" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="MyHttpClient.test1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.course.httpclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="HttpClient" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.course.httpclient" />
+      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.MyHttpClient" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" />
@@ -474,19 +640,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.TestMethodsDemo.test3" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.TestMethodsDemo.logDemo" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.TestMethodsDemo" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.E:/WorkSpace/JavaScripts/Test/Report/src/main/resources/testng.xml" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.E:/WorkSpace/JavaScripts/Test/Chapter/Report/src/main/resources/testng.xml" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.MyHttpClient.test1" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.MyCookieForGet" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.MyCookieForGet.testGetCookie" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.MyCookieForGet.testWithCookies" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.MyCookieForPost.testPostMethod" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.E:/WorkSpace/JavaScripts/Test/Chapter/Report/src/main/resources/testng.xml" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.E:/WorkSpace/JavaScripts/Test/Report/src/main/resources/testng.xml" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.TestMethodsDemo" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.TestMethodsDemo.logDemo" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.TestMethodsDemo.test3" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.MyCookieForPost.testPostMethod" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.MyCookieForGet.testWithCookies" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.MyCookieForGet.testGetCookie" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.MyCookieForGet" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.MyHttpClient.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -506,44 +672,44 @@
       <workItem from="1539847572210" duration="1296000" />
       <workItem from="1540454560595" duration="19131000" />
       <workItem from="1540537232236" duration="2825000" />
-      <workItem from="1540540090169" duration="13987000" />
+      <workItem from="1540540090169" duration="26885000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="E__WorkSpace_JavaScripts_Test_Chapter_Report_src_main_resources_testng_xml - 2018.10.26 at 14h 22m 02s.xml">
-      <configuration name="E:/WorkSpace/JavaScripts/Test/Chapter/Report/src/main/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="MyCookieForGet_testGetCookie - 2018.10.27 at 17h 13m 52s.xml">
+      <configuration name="MyCookieForGet.testGetCookie" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__WorkSpace_JavaScripts_Test_Chapter_Report_src_main_resources_testng_xml - 2018.10.26 at 14h 22m 57s.xml">
-      <configuration name="E:/WorkSpace/JavaScripts/Test/Chapter/Report/src/main/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="MyCookieForGet_testGetCookie - 2018.10.27 at 17h 14m 42s.xml">
+      <configuration name="MyCookieForGet.testGetCookie" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__WorkSpace_JavaScripts_Test_Chapter_Report_src_main_resources_testng_xml - 2018.10.26 at 14h 24m 59s.xml">
-      <configuration name="E:/WorkSpace/JavaScripts/Test/Chapter/Report/src/main/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="MyCookieForGet_testGetCookie - 2018.10.27 at 17h 27m 40s.xml">
+      <configuration name="MyCookieForGet.testGetCookie" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__WorkSpace_JavaScripts_Test_Chapter_Report_src_main_resources_testng_xml - 2018.10.26 at 14h 39m 45s.xml">
-      <configuration name="E:/WorkSpace/JavaScripts/Test/Chapter/Report/src/main/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="MyCookieForGet_testGetCookie - 2018.10.27 at 17h 28m 11s.xml">
+      <configuration name="MyCookieForGet.testGetCookie" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__WorkSpace_JavaScripts_Test_Chapter_Report_src_main_resources_testng_xml - 2018.10.26 at 14h 46m 58s.xml">
-      <configuration name="E:/WorkSpace/JavaScripts/Test/Chapter/Report/src/main/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="MyCookieForGet_testGetCookie - 2018.10.27 at 17h 28m 55s.xml">
+      <configuration name="MyCookieForGet.testGetCookie" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__WorkSpace_JavaScripts_Test_Chapter_Report_src_main_resources_testng_xml - 2018.10.26 at 15h 03m 06s.xml">
-      <configuration name="E:/WorkSpace/JavaScripts/Test/Chapter/Report/src/main/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="MyCookieForGet_testWithCookies - 2018.10.27 at 18h 15m 59s.xml">
+      <configuration name="MyCookieForGet.testWithCookies" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__WorkSpace_JavaScripts_Test_Chapter_Report_src_main_resources_testng_xml - 2018.10.26 at 15h 18m 46s.xml">
-      <configuration name="E:/WorkSpace/JavaScripts/Test/Chapter/Report/src/main/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="MyCookieForPost_testPostMethod - 2018.10.29 at 10h 40m 31s.xml">
+      <configuration name="MyCookieForPost.testPostMethod" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__WorkSpace_JavaScripts_Test_Report_src_main_resources_testng_xml - 2018.10.26 at 14h 06m 59s.xml">
-      <configuration name="E:/WorkSpace/JavaScripts/Test/Report/src/main/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="MyCookieForPost_testPostMethod - 2018.10.29 at 10h 41m 24s.xml">
+      <configuration name="MyCookieForPost.testPostMethod" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__WorkSpace_JavaScripts_Test_Report_src_main_resources_testng_xml - 2018.10.26 at 14h 11m 06s.xml">
-      <configuration name="E:/WorkSpace/JavaScripts/Test/Report/src/main/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="MyCookieForPost_testPostMethod - 2018.10.29 at 10h 43m 32s.xml">
+      <configuration name="MyCookieForPost.testPostMethod" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__WorkSpace_JavaScripts_Test_Report_src_main_resources_testng_xml - 2018.10.26 at 14h 11m 42s.xml">
-      <configuration name="E:/WorkSpace/JavaScripts/Test/Report/src/main/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="MyCookieForPost_testPostMethod - 2018.10.29 at 10h 51m 37s.xml">
+      <configuration name="MyCookieForPost.testPostMethod" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43366000" />
+    <option name="totallyTimeSpent" value="56264000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -555,22 +721,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-1736" y="16" width="1380" height="735" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.4936034" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2633297" sideWeight="0.078891255" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.49573562" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52992386" sideWeight="0.9211087" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.49573562" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32943144" sideWeight="0.9211087" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.49573562" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2585288" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36742425" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -583,7 +749,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20682302" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
     </layout>
@@ -599,49 +764,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter/src/main/resources/multiThread.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter/src/main/java/com/course/testng/TimeOutTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter/Chapter.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="71" lean-forward="false" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aaa/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/src/Test.java" />
-    <entry file="file://$PROJECT_DIR$/Test.iml" />
-    <entry file="file://$PROJECT_DIR$/Test.iml" />
-    <entry file="file://$PROJECT_DIR$/src/test2.txt" />
-    <entry file="file://$PROJECT_DIR$/src/Login_shangchu.java" />
-    <entry file="file://$PROJECT_DIR$/src/Test.java" />
-    <entry file="file://$PROJECT_DIR$/Chapter/src/main/java/com/course/testng/suite/SuiteConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter/src/main/java/com/course/testng/suite/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -766,6 +888,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
           <caret line="60" column="11" lean-forward="false" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
+          <folding>
+            <element signature="e#1598#1599#0" expanded="false" />
+            <element signature="e#1628#1629#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -940,14 +1066,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter/MoCo/startUpWithCookies.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter/MoCo/startUp1.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -956,26 +1074,235 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter/MoCo/startUpWithHeader.json">
+    <entry file="file://$PROJECT_DIR$/Chapter/MoCo/startUpWithRedirect.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        <state relative-caret-position="297">
+          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.1.2/httpcore-4.1.2.jar!/org/apache/http/HttpResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="22" column="15" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+          <folding>
+            <marker date="1540626456075" expanded="false" signature="0:104" ph="/.../" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter/MoCo/基本操作说明">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="81" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="81">
+          <caret line="3" column="62" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="85" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter/MoCo/startUpWithRedirect.json">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.1.2/httpclient-4.1.2.jar!/org/apache/http/client/CookieStore.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="24" />
+        <state relative-caret-position="143">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <marker date="1540626446729" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1540626446729" expanded="false" signature="146:222" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/ResourceBundle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="405" column="24" lean-forward="false" selection-start-line="405" selection-start-column="24" selection-end-line="405" selection-end-column="24" />
+          <folding>
+            <element signature="e#15397#15398#0" expanded="true" />
+            <element signature="e#15443#15444#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.1.2/httpclient-4.1.2.jar!/org/apache/http/client/HttpClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding>
+            <marker date="1540626446729" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1540626446729" expanded="false" signature="146:466" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.1.2/httpclient-4.1.2.jar!/org/apache/http/impl/client/AbstractHttpClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="489" column="30" lean-forward="false" selection-start-line="489" selection-start-column="30" selection-end-line="489" selection-end-column="30" />
+          <folding>
+            <marker date="1540626446729" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1540626446729" expanded="false" signature="151:2985" ph="..." />
+            <marker date="1540626446729" expanded="true" signature="4431:4510" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="4679:5198" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="5270:6432" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="6494:6846" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="6908:7417" ph="{...}" />
+            <marker date="1540626446729" expanded="false" signature="7476:7487" ph=" { " />
+            <marker date="1540626446729" expanded="false" signature="7520:7526" ph=" }" />
+            <marker date="1540626446729" expanded="false" signature="7597:7608" ph=" { " />
+            <marker date="1540626446729" expanded="false" signature="7652:7658" ph=" }" />
+            <marker date="1540626446729" expanded="true" signature="7738:7802" ph="{...}" />
+            <marker date="1540626446729" expanded="false" signature="7873:7884" ph=" { " />
+            <marker date="1540626446729" expanded="false" signature="7928:7934" ph=" }" />
+            <marker date="1540626446729" expanded="true" signature="7940:7958" ph="/**...*/" />
+            <marker date="1540626446729" expanded="false" signature="8028:8039" ph=" { " />
+            <marker date="1540626446729" expanded="false" signature="8075:8081" ph=" }" />
+            <marker date="1540626446729" expanded="true" signature="8155:8219" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="8292:8355" ph="{...}" />
+            <marker date="1540626446729" expanded="false" signature="8402:8413" ph=" { " />
+            <marker date="1540626446729" expanded="false" signature="8443:8449" ph=" }" />
+            <marker date="1540626446729" expanded="false" signature="8512:8523" ph=" { " />
+            <marker date="1540626446729" expanded="false" signature="8561:8567" ph=" }" />
+            <marker date="1540626446729" expanded="true" signature="8625:8725" ph="{...}" />
+            <marker date="1540626446729" expanded="false" signature="8782:8793" ph=" { " />
+            <marker date="1540626446729" expanded="false" signature="8830:8836" ph=" }" />
+            <marker date="1540626446729" expanded="true" signature="8891:9044" ph="{...}" />
+            <marker date="1540626446729" expanded="false" signature="9103:9114" ph=" { " />
+            <marker date="1540626446729" expanded="false" signature="9142:9148" ph=" }" />
+            <marker date="1540626446729" expanded="true" signature="9227:9387" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="9460:9612" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="9680:9862" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="9947:10010" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="10078:10260" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="10345:10408" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="10493:10659" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="10746:10797" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="10890:11072" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="11171:11230" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="11315:11478" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="11574:11623" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="11629:11647" ph="/**...*/" />
+            <marker date="1540626446729" expanded="false" signature="11730:11741" ph=" { " />
+            <marker date="1540626446729" expanded="false" signature="11777:11783" ph=" }" />
+            <marker date="1540626446729" expanded="true" signature="11789:11807" ph="/**...*/" />
+            <marker date="1540626446729" expanded="true" signature="11905:11997" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="12068:12236" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="12322:12379" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="12466:12648" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="12751:12810" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="12896:13074" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="13175:13232" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="13293:13441" ph="{...}" />
+            <marker date="1540626446729" expanded="false" signature="13511:13522" ph=" { " />
+            <marker date="1540626446729" expanded="false" signature="13553:13559" ph=" }" />
+            <marker date="1540626446729" expanded="true" signature="13636:13798" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="13887:13938" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="14005:14161" ph="{...}" />
+            <marker date="1540626446729" expanded="false" signature="14238:14249" ph=" { " />
+            <marker date="1540626446729" expanded="false" signature="14282:14288" ph=" }" />
+            <marker date="1540626446729" expanded="true" signature="14359:14527" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="14613:14670" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="14743:14908" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="14978:15826" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="15886:15963" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="16047:16124" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="16206:16282" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="16341:16417" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="16501:16601" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="16696:16803" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="16862:16969" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="17081:17200" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="17282:17382" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="17475:17582" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="17640:17746" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="17856:17974" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="18082:18146" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="18275:18530" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="18631:18997" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="19119:19191" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="19334:20561" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="20567:20585" ph="/**...*/" />
+            <marker date="1540626446729" expanded="true" signature="21053:21257" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="21712:21927" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="21987:22103" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="22244:22358" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="22520:22651" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="22806:22895" ph="{...}" />
+            <marker date="1540626446729" expanded="true" signature="23071:24290" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter/HttpClient/src/main/java/com/course/httpclient/MyHttpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter/HttpClient/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="24" column="29" lean-forward="false" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter/HttpClient/src/main/java/com/course/httpclient/MyCookieForGet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-868">
+          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter/HttpClient/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.1.2/httpcore-4.1.2.jar!/org/apache/http/entity/StringEntity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.1.2/httpcore-4.1.2.jar!/org/apache/http/util/EntityUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="102" column="25" lean-forward="false" selection-start-line="102" selection-start-column="25" selection-end-line="102" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter/HttpClient/src/main/java/com/course/httpclient/MyCookieForPost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1212">
+          <caret line="106" column="35" lean-forward="false" selection-start-line="106" selection-start-column="35" selection-end-line="106" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter/MoCo/startUpWithHeader.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter/MoCo/startUpWithCookies.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
           <folding />
         </state>
       </provider>

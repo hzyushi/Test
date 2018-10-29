@@ -11,6 +11,7 @@
     <modules>
         <module>../Report</module>
         <module>../MoCo</module>
+        <module>HttpClient</module>
     </modules>
     <dependencies>
         <dependency>

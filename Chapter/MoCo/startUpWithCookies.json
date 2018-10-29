@@ -1,5 +1,18 @@
 [
   {
+    "description":"这好一个返回cookie信息的get请求",
+    "request":{
+      "uri":"/getCookie",
+      "method":"get"
+    },
+    "response":{
+      "text":"welcome to get cookie!!!寸",
+      "cookies":{
+        "login":"true"
+      }
+    }
+  },
+  {
     "description":"这是一个需要带cookies的get请求",
     "request":{
       "uri":"/cookiesGet",
@@ -9,7 +22,7 @@
       }
     },
     "response":{
-      "text":"这是一个带cookies的返data"
+      "text":"you must need cookies to go in"
     }
   },
   {
