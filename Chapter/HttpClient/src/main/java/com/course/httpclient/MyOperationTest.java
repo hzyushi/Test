@@ -1,10 +1,7 @@
 package com.course.httpclient;
 
 import org.apache.http.HttpResponse;
-import org.apache.http.client.CookieStore;
-import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
-import org.apache.http.cookie.Cookie;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.util.EntityUtils;
@@ -15,61 +12,23 @@ import org.testng.annotations.Test;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
-import java.util.List;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
-//import org.apache.http.client.HttpClient;
-
-public class MyCookieForPost {
-    /**
-     * 重点：获取cookie，以及携带获取的cookie进行访问
-     */
+public class MyOperationTest {
     private ResourceBundle bundle;
     private String url = "";
-    private CookieStore store = null;
 
     @BeforeTest
     public void beforeTest(){
         //从配置文件里获取地址
         bundle = ResourceBundle.getBundle("application", Locale.CHINA);
-        url = bundle.getString("test.url");
+        url = bundle.getString("test.operationTest");
     }
 
     @Test
-    public void testGetCookie(){
-        String result = "";
-        String uri = bundle.getString("getcookie.uri");
-        String testUrl = url + uri;
-        System.out.println("testUrl = " + testUrl);
-        HttpGet get = new HttpGet(testUrl);
-        //HttpClient无法获取cookie信息，必须是DefaultHttpClient才可以获取cookie信息
-//        HttpClient client = new DefaultHttpClient();
-        DefaultHttpClient client = new DefaultHttpClient();
-        HttpResponse response = null;
-        try {
-            response = client.execute(get);
-//            response.setHeader("Content-type", "text/html;charset=UTF-8");
-            result = EntityUtils.toString(response.getEntity(),"utf-8");
-            System.out.println(result);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-
-        //获取cookie信息
-        store = client.getCookieStore();
-        List<Cookie> cookList = store.getCookies();
-        for (Cookie cookie:cookList){
-            String name = cookie.getName();
-            String value = cookie.getValue();
-            System.out.println("name = " + name + "; value = " + value);
-        }
-    }
-
-    @Test(dependsOnMethods = {"testGetCookie"})
-    public void testPostMethod(){
-        String uri = bundle.getString("test.cookiesPost");
+    public void testPostCookie(){
+        String uri = bundle.getString("test.operationTest.checkUser");
         String testUrl = this.url + uri;
         //声明一个post方法
         HttpPost post = new HttpPost(testUrl);
@@ -77,8 +36,8 @@ public class MyCookieForPost {
         DefaultHttpClient client = new DefaultHttpClient();
         //添加json参数
         JSONObject json = new JSONObject();
-        json.put("name","huhansan");
-        json.put("age","20");
+        json.put("account","admin");
+        json.put("userPwd","123456");
         //设置请求头信息,设置在post方法里
         post.setHeader("content-type","application/json");
         //将json参数添加到post方法中
@@ -90,7 +49,8 @@ public class MyCookieForPost {
         }
         post.setEntity(entity);
         //设置cookies信息
-        client.setCookieStore(this.store);
+//        CookieStore cookieStore = null;
+//        client.setCookieStore(cookieStore);
         //执行post方法
         try {
             HttpResponse response = client.execute(post);
@@ -101,11 +61,13 @@ public class MyCookieForPost {
             //处理结果，就是判断返回结果是否符合预期
             //将返回的响应结果字符串转化成为json对象
             JSONObject resultJson = new JSONObject(result);
-            String name = resultJson.getString("name");
-            String age = resultJson.getString("age");
+            String code = resultJson.getString("code");
+            String data = resultJson.getString("data");
+            String message = resultJson.getString("message");
             //具体的判断返回结果的值
-            Assert.assertEquals("i am huhansan",name);
-            Assert.assertEquals("20",age);
+            Assert.assertEquals("000",code);
+            Assert.assertEquals(".youximao.cn",data);
+            Assert.assertEquals("登陆成功",message);
 
         } catch (IOException e) {
 

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name="MySuit">
+    <test name="MyTest">
+        <classes>
+            <class name="com.course.httpclient.MyOperationTest">
+                <methods>
+                    <include name="testPostCookie" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="com.course.httpclient.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>
